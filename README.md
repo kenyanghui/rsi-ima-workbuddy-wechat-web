@@ -117,7 +117,7 @@ WorkBuddy 用户直接说「**fork 讲师站**」「**把站换成我的**」「
 
 ```
 rsi-ima-workbuddy-wechat-web/
-├── SKILL.md                  # WorkBuddy 技能定义 v3.3.0（触发词/别名/前置/流程）
+├── SKILL.md                  # WorkBuddy 技能定义 v3.3.1（触发词/别名/前置/流程）
 ├── SETUP.md                  # 安装向导
 ├── README.md                 # 本文件
 ├── evidence.txt              # site_check 实跑证据（逐块标注结论，RULES R2 活样本）

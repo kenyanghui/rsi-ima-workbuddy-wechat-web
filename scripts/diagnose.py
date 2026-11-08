@@ -133,7 +133,10 @@ def check_siblings():
     home = Path.home()
     ima = (home / ".config/ima/client_id").exists()
     wx = (home / ".config/wechat/appid").exists()
-    rsi = (home / ".workbuddy/skills/rsi-wechat-publisher").is_dir()
+    rsi = any(
+        (ws / "skills/rsi-wechat-publisher").is_dir()
+        for ws in (home / "workspaces", Path.cwd())
+    )
     if ima:
         report(OK, "IMA 凭证已配（第一期复用）：素材可直接查库")
     else:

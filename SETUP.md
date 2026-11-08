@@ -5,20 +5,29 @@
 
 ## 第 0 步：把技能装进 WorkBuddy
 
-**方式一 · 终端（推荐，一行）**：
+**方式一 · 对话框导入（推荐，零终端）**：
+
+对 WorkBuddy 说：
+
+> 帮我安装技能：https://github.com/kenyanghui/rsi-ima-workbuddy-wechat-web
+
+WorkBuddy 原生支持从 GitHub 仓库 URL 导入技能（`agents/{id}/skills/import`），会自动下载装进当前工作区的 `skills/` 目录并识别。装完新开一个对话，说「**网站体检**」——看到技能名出现在检查结果里就是装好了。
+
+**方式二 · 终端一行**（对启用了本地工作区目录的用户）：
 
 ```bash
-git clone https://github.com/kenyanghui/rsi-ima-workbuddy-wechat-web ~/.workbuddy/skills/rsi-ima-workbuddy-wechat-web
+# <工作区> 是 WorkBuddy 里当前 agent 的工作区目录（对话里问「我的工作区在哪」可得）
+git clone https://github.com/kenyanghui/rsi-ima-workbuddy-wechat-web <工作区>/skills/rsi-ima-workbuddy-wechat-web
 ```
 
-**方式二 · 不用终端**：
+装完重启 WorkBuddy（或新开一个对话）。
+
+**方式三 · 网页下载**（无 git 环境）：
 
 1. 浏览器打开 https://github.com/kenyanghui/rsi-ima-workbuddy-wechat-web
 2. 绿色 `Code` 按钮 → `Download ZIP` → 解压
 3. 把解压出的 `rsi-ima-workbuddy-wechat-web-main` 改名为 `rsi-ima-workbuddy-wechat-web`
-4. 整个文件夹放进 `~/.workbuddy/skills/`（Mac Finder 按 `Cmd+Shift+G` 输入 `~/.workbuddy/skills/` 回车；Windows 在用户目录下建同名路径）
-
-装完重启 WorkBuddy（或新开一个对话），说「**网站体检**」——看到技能名出现在检查结果里就是装好了。
+4. 整个文件夹放进工作区的 `skills/` 目录（工作区路径问 WorkBuddy「我的工作区在哪」；没有 `skills/` 就自己建一个）
 
 ## 第 1 步：拿两个账号（已有就跳过）
 
@@ -45,7 +54,7 @@ git clone https://github.com/kenyanghui/rsi-ima-workbuddy-wechat-web ~/.workbudd
 
 > **帮我建个人网站**
 
-（或终端 `python3 ~/.workbuddy/skills/rsi-ima-workbuddy-wechat-web/scripts/setup_wizard.py`）
+（或终端 `python3 <工作区>/skills/rsi-ima-workbuddy-wechat-web/scripts/setup_wizard.py`——工作区路径问 WorkBuddy「我的工作区在哪」）
 
 向导问 6 个问题，然后生成 `~/my-site/`。**双击 `index.html` 就能看到你的站**。
 
@@ -108,6 +117,7 @@ EOF
 | 症状 | 解法 |
 |------|------|
 | clone 报权限/不存在 | 仓库名拼错了，直接浏览器能打开就说明仓库在 |
-| ~/.workbuddy/skills/ 不存在 | 自己建：`mkdir -p ~/.workbuddy/skills` |
-| 说了「网站体检」没反应 | 技能文件夹名字必须叫 `rsi-ima-workbuddy-wechat-web`；重启 WorkBuddy |
-| wizard 跑不起来 | 需要 Python 3.8+；终端跑 `python3 --version` 确认 |
+| 方式一说「装不了」 | WorkBuddy 版本较旧无 URL 导入——改用方式二/三，或升级 WorkBuddy |
+| 工作区没有 skills/ 目录 | 自己建一个：对话里问「我的工作区在哪」拿到路径后，在里面建 `skills/` 文件夹 |
+| 说了「网站体检」没反应 | 技能文件夹名字必须叫 `rsi-ima-workbuddy-wechat-web`；重启 WorkBuddy 或新开对话 |
+| wizard 跑不起来 | 需要 Python 3.8+；终端跑 `python3 --version` 确认（WorkBuddy 桌面版自带 Python，可直接用） |
