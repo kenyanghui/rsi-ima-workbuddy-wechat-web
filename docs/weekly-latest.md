@@ -1,17 +1,20 @@
-# 飞轮周报 · 2026-11-09（autopilot 自动生成）
+# 飞轮周报 · 2026-11-16（autopilot 自动生成）
 
-## 一、对账（近 7 天体检 5/5 天 PASS · 站内文章累计 0 篇）
+## 一、对账（近 7 天体检 8/8 天 PASS · 站内文章累计 0 篇）
 
-| 2026-11-05 07:54 | PASS | 6/6 | ✓chai-home=388ms；✓chailive-home=354ms；✓chailive-books=149ms；✓chaibuddy-home=140ms；✓chaibuddy-people=155ms；✓ai-proxy-ping=879ms |
-| 2026-11-06 07:54 | PASS | 6/6 | ✓chai-home=221ms；✓chailive-home=578ms；✓chailive-books=478ms；✓chaibuddy-home=111ms；✓chaibuddy-people=229ms；✓ai-proxy-ping=1282ms |
-| 2026-11-07 07:08 | PASS | 7/7 | ✓chai-home=291ms；✓chailive-home=148ms；✓chailive-books=373ms；✓chaibuddy-home=114ms；✓chaibuddy-people=162ms；✓ai-proxy-ping=2104ms；✓chai-tf-assess=217ms |
-| 2026-11-08 07:17 | PASS | 7/7 | ✓chai-home=831ms；✓chailive-home=470ms；✓chailive-books=149ms；✓chaibuddy-home=106ms；✓chaibuddy-people=245ms；✓ai-proxy-ping=885ms；✓chai-tf-assess=160ms |
-| 2026-11-09 07:57 | PASS | 7/7 | ✓chai-home=194ms；✓chailive-home=160ms；✓chailive-books=114ms；✓chaibuddy-home=112ms；✓chaibuddy-people=174ms；✓ai-proxy-ping=1465ms；✓chai-tf-assess=133ms |
+| 2026-11-09 09:53 | PASS | 7/7 | ✓chai-home=479ms；✓chailive-home=152ms；✓chailive-books=77ms；✓chaibuddy-home=47ms；✓chaibuddy-people=95ms；✓ai-proxy-ping=841ms；✓chai-tf-assess=55ms |
+| 2026-11-10 08:24 | PASS | 7/7 | ✓chai-home=610ms；✓chailive-home=498ms；✓chailive-books=131ms；✓chaibuddy-home=137ms；✓chaibuddy-people=202ms；✓ai-proxy-ping=1955ms；✓chai-tf-assess=177ms |
+| 2026-11-11 07:44 | PASS | 7/7 | ✓chai-home=418ms；✓chailive-home=390ms；✓chailive-books=131ms；✓chaibuddy-home=121ms；✓chaibuddy-people=175ms；✓ai-proxy-ping=1114ms；✓chai-tf-assess=118ms |
+| 2026-11-12 08:18 | PASS | 7/7 | ✓chai-home=396ms；✓chailive-home=692ms；✓chailive-books=179ms；✓chaibuddy-home=202ms；✓chaibuddy-people=339ms；✓ai-proxy-ping=1020ms；✓chai-tf-assess=124ms |
+| 2026-11-13 07:55 | PASS | 7/7 | ✓chai-home=620ms；✓chailive-home=321ms；✓chailive-books=81ms；✓chaibuddy-home=64ms；✓chaibuddy-people=71ms；✓ai-proxy-ping=1354ms；✓chai-tf-assess=42ms |
+| 2026-11-14 07:36 | PASS | 7/7 | ✓chai-home=184ms；✓chailive-home=151ms；✓chailive-books=82ms；✓chaibuddy-home=69ms；✓chaibuddy-people=75ms；✓ai-proxy-ping=2161ms；✓chai-tf-assess=58ms |
+| 2026-11-15 07:49 | PASS | 7/7 | ✓chai-home=461ms；✓chailive-home=347ms；✓chailive-books=74ms；✓chaibuddy-home=72ms；✓chaibuddy-people=88ms；✓ai-proxy-ping=2486ms；✓chai-tf-assess=115ms |
 
 ## 二、雷达热点 Top5
 
-- [zhihu] 自媒体曝胖东来爆火的卡蓓诺洗发水疑为非日本制造，胖东来否认产地造假并将启动维权，哪些信息值得关注？（热度 0｜写作）
-- [zhihu] 张朝阳说从来不看AI漫剧，AI让内容产生一种塑料感，像化肥催熟的西红柿没有味，你同意吗？（热度 0｜AI）
+- [douyin] 全员严肃学习赵露思穿搭（热度 7739662｜成长）
+- [toutiao] 媒体：AI仿本山玩梗有风险（热度 6649286｜AI）
+- [weibo] AI演员方桃子代言美瞳广告被罚（热度 394571｜AI）
 
 ## 三、下周选题建议
 
