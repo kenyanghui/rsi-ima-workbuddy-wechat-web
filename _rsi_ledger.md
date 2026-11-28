@@ -31,3 +31,4 @@
 | 2026-11-25 09:50 | PASS | 7/7 | ✓chai-home=343ms；✓chailive-home=324ms；✓chailive-books=107ms；✓chaibuddy-home=106ms；✓chaibuddy-people=230ms；✓ai-proxy-ping=2853ms；✓chai-tf-assess=126ms |
 | 2026-11-26 09:30 | PASS | 7/7 | ✓chai-home=279ms；✓chailive-home=276ms；✓chailive-books=117ms；✓chaibuddy-home=120ms；✓chaibuddy-people=222ms；✓ai-proxy-ping=1213ms；✓chai-tf-assess=106ms |
 | 2026-11-27 09:39 | PASS | 7/7 | ✓chai-home=255ms；✓chailive-home=272ms；✓chailive-books=85ms；✓chaibuddy-home=56ms；✓chaibuddy-people=82ms；✓ai-proxy-ping=1279ms；✓chai-tf-assess=105ms |
+| 2026-11-28 08:54 | PASS | 7/7 | ✓chai-home=415ms；✓chailive-home=446ms；✓chailive-books=156ms；✓chaibuddy-home=135ms；✓chaibuddy-people=275ms；✓ai-proxy-ping=2188ms；✓chai-tf-assess=347ms |
